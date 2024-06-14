@@ -26,7 +26,7 @@ async function sendVerificationEmail(email, otp) {
     
     const mailResponse = await mailSender(
       email,
-      "Verification Email from Tech Buddy",
+      "Verification Email from Course-X",
       emailTemplate(otp)
     );
     console.log("kamal ");
